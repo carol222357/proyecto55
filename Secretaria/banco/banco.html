@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Control de Pagos</title>
+
+    <link rel="stylesheet" href="banco_1.css">
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+
+    <header>
+        <div class="icon__menu">
+            <img src="../iconos/bars-solid.svg" class="botones" id="btn_open"></img>
+        </div>
+        <div class="usuario">
+            <img src="../iconos/user-solid.svg" class="botones"></img>
+            <h4>Administrador</h4>
+            <a href="../seccion.html">
+                <img src="../iconos/right-to-bracket-solid.svg" class="botones"></img>
+            </a>
+        </div>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <img src="../iconos/house-solid.svg" class="botones"></img>
+            <h4>CECAL</h4>
+        </div>
+
+        <div class="options__menu">
+
+            <a href="../panel/index.html">
+                <div class="option">
+                    <img src="../iconos/gauge-high-solid.svg" class="botones" title="Panel de Control"></img>
+                    <h4>Panel de Control</h4>
+                </div>
+            </a>
+
+            <a href="banco.html" class="selected">
+                <div class="option">
+                    <img src="../iconos/landmark-solid.svg" class="botones" title="Bancos"></img>
+                    <h4>Bancos</h4>
+                </div>
+            </a>
+
+            <a href="../estudiantes/estudiantes.html">
+                <div class="option">
+                    <img src="../iconos/circle-user-solid.svg" class="botones" title="Estudiantes"></img>
+                    <h4>Estudiantes</h4>
+                </div>
+            </a>
+
+            <a href="../cursos/cursos.html">
+                <div class="option">
+                    <img src="../iconos/folder-open-solid.svg" class="botones" title="Cursos"></img>
+                    <h4>Cursos</h4>
+                </div>
+            </a>
+
+            <a href="../pagos/pagos.html">
+                <div class="option">
+                    <img src="../iconos/money-bill-solid.svg" class="botones" title="Pagos"></img>
+                    <h4>Pagos</h4>
+                </div>
+            </a>
+
+            <a href="../matricular/matricular.html">
+                <div class="option">
+                    <img src="../iconos/address-card-regular.svg" class="botones" title="Matricular"></img>
+                    <h4>Matricular</h4>
+                </div>
+            </a>
+
+            <a href="../seccion.html">
+                <div class="option">
+                    <img src="../iconos/right-to-bracket-solid.svg" class="botones" title="Cerrar Seccion"></img>
+                    <h4>Cerrar Sección</h4>
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <main>
+
+
+        <summary class="bancos">
+            <div class="parte_alta">
+                <div>
+                    <h2>Bancos</h2>
+                </div>
+                <a href="bancoregistro.html">
+                    <div class="agregar_bancos">
+                        <h4>+ Agregar Bancos</h4>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <form class="Buscador" id="buscar">
+                    <button type="submit">Buscar</button>
+                    <input type="text" id="buscador" placeholder="Buscar...">
+
+                </form>
+            </div>
+            <table class="tabla">
+                <tr>
+                    <th>#</th>
+                    <th>Bancos</th>
+                    <th>CODIGO</th>
+                    <th>CEDULA O RIF</th>
+                    <th>TELÉFONO</th>
+                    <th>Beneficiario</th>
+                    <th>Opciones</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="borrar">Borrar</button>
+                        <button class="editar">Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="borrar">Borrar</button>
+                        <button class="editar">Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="borrar">Borrar</button>
+                        <button class="editar">Editar</button>
+                    </td>
+                </tr>
+            </table>
+        </summary>
+
+    </main>
+
+    <script src="banco.js"></script>
+</body>
+
+</html>
